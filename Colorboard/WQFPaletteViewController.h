@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WQFPaletteViewController.h
 //  Colorboard
 //
 //  Created by Wuqifu on 15/6/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WQFPaletteViewController : UITableViewController
 
 @end
-

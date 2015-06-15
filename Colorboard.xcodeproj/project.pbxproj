@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A817081D1B2EEDE00054E5F0 /* WQFColorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = A81708181B2EEDE00054E5F0 /* WQFColorDescription.m */; };
+		A817081E1B2EEDE00054E5F0 /* WQFColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A817081A1B2EEDE00054E5F0 /* WQFColorViewController.m */; };
+		A817081F1B2EEDE00054E5F0 /* WQFPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A817081C1B2EEDE00054E5F0 /* WQFPaletteViewController.m */; };
 		A82369101B2D7E810039F490 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A823690F1B2D7E810039F490 /* main.m */; };
 		A82369131B2D7E810039F490 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A82369121B2D7E810039F490 /* AppDelegate.m */; };
-		A82369161B2D7E810039F490 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82369151B2D7E810039F490 /* ViewController.m */; };
-		A82369191B2D7E810039F490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82369171B2D7E810039F490 /* Main.storyboard */; };
 		A823691B1B2D7E810039F490 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A823691A1B2D7E810039F490 /* Images.xcassets */; };
 		A823691E1B2D7E810039F490 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A823691C1B2D7E810039F490 /* LaunchScreen.xib */; };
 		A823692A1B2D7E810039F490 /* ColorboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A82369291B2D7E810039F490 /* ColorboardTests.m */; };
+		A82369341B2D7EF70039F490 /* Colorboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82369331B2D7EF70039F490 /* Colorboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A81708171B2EEDE00054E5F0 /* WQFColorDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQFColorDescription.h; sourceTree = "<group>"; };
+		A81708181B2EEDE00054E5F0 /* WQFColorDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQFColorDescription.m; sourceTree = "<group>"; };
+		A81708191B2EEDE00054E5F0 /* WQFColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQFColorViewController.h; sourceTree = "<group>"; };
+		A817081A1B2EEDE00054E5F0 /* WQFColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQFColorViewController.m; sourceTree = "<group>"; };
+		A817081B1B2EEDE00054E5F0 /* WQFPaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQFPaletteViewController.h; sourceTree = "<group>"; };
+		A817081C1B2EEDE00054E5F0 /* WQFPaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQFPaletteViewController.m; sourceTree = "<group>"; };
 		A823690A1B2D7E810039F490 /* Colorboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colorboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A823690E1B2D7E810039F490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A823690F1B2D7E810039F490 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A82369111B2D7E810039F490 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A82369121B2D7E810039F490 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A82369141B2D7E810039F490 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A82369151B2D7E810039F490 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A82369181B2D7E810039F490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A823691A1B2D7E810039F490 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A823691D1B2D7E810039F490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A82369231B2D7E810039F490 /* ColorboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82369281B2D7E810039F490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A82369291B2D7E810039F490 /* ColorboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorboardTests.m; sourceTree = "<group>"; };
+		A82369331B2D7EF70039F490 /* Colorboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Colorboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 		A82369011B2D7E810039F490 = {
 			isa = PBXGroup;
 			children = (
+				A82369331B2D7EF70039F490 /* Colorboard.storyboard */,
 				A823690C1B2D7E810039F490 /* Colorboard */,
 				A82369261B2D7E810039F490 /* ColorboardTests */,
 				A823690B1B2D7E810039F490 /* Products */,
@@ -81,11 +88,14 @@
 		A823690C1B2D7E810039F490 /* Colorboard */ = {
 			isa = PBXGroup;
 			children = (
+				A81708171B2EEDE00054E5F0 /* WQFColorDescription.h */,
+				A81708181B2EEDE00054E5F0 /* WQFColorDescription.m */,
+				A81708191B2EEDE00054E5F0 /* WQFColorViewController.h */,
+				A817081A1B2EEDE00054E5F0 /* WQFColorViewController.m */,
+				A817081B1B2EEDE00054E5F0 /* WQFPaletteViewController.h */,
+				A817081C1B2EEDE00054E5F0 /* WQFPaletteViewController.m */,
 				A82369111B2D7E810039F490 /* AppDelegate.h */,
 				A82369121B2D7E810039F490 /* AppDelegate.m */,
-				A82369141B2D7E810039F490 /* ViewController.h */,
-				A82369151B2D7E810039F490 /* ViewController.m */,
-				A82369171B2D7E810039F490 /* Main.storyboard */,
 				A823691A1B2D7E810039F490 /* Images.xcassets */,
 				A823691C1B2D7E810039F490 /* LaunchScreen.xib */,
 				A823690D1B2D7E810039F490 /* Supporting Files */,
@@ -199,7 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A82369191B2D7E810039F490 /* Main.storyboard in Resources */,
+				A82369341B2D7EF70039F490 /* Colorboard.storyboard in Resources */,
 				A823691E1B2D7E810039F490 /* LaunchScreen.xib in Resources */,
 				A823691B1B2D7E810039F490 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A82369161B2D7E810039F490 /* ViewController.m in Sources */,
+				A817081D1B2EEDE00054E5F0 /* WQFColorDescription.m in Sources */,
 				A82369131B2D7E810039F490 /* AppDelegate.m in Sources */,
 				A82369101B2D7E810039F490 /* main.m in Sources */,
+				A817081E1B2EEDE00054E5F0 /* WQFColorViewController.m in Sources */,
+				A817081F1B2EEDE00054E5F0 /* WQFPaletteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +256,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A82369171B2D7E810039F490 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A82369181B2D7E810039F490 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A823691C1B2D7E810039F490 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -348,8 +352,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Colorboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -358,8 +364,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Colorboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -416,6 +424,7 @@
 				A823692F1B2D7E810039F490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A82369301B2D7E810039F490 /* Build configuration list for PBXNativeTarget "ColorboardTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				A82369321B2D7E810039F490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
