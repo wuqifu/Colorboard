@@ -77,6 +77,7 @@
         
     } else if ([[segue identifier] isEqualToString: @"ExistingColor"]){
         NSIndexPath * index =  [self.tableView indexPathForCell:sender];
+        index = [self.tableView indexPathForSelectedRow];
         
         WQFColorDescription *colorDescription = self.colors[index.row];
         

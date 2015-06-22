@@ -1,209 +1,194 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wsS-yB-yfa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aYc-Q1-pSU">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
-        <scene sceneID="YEC-V6-WU5">
+        <scene sceneID="tM1-d2-Zvu">
             <objects>
-                <navigationController id="wsS-yB-yfa" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ar9-mR-Gg7">
+                <navigationController id="aYc-Q1-pSU" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="luZ-0Z-wI7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="pkc-fy-5rj" kind="relationship" relationship="rootViewController" id="eRw-4X-5Kj"/>
+                        <segue destination="Dcm-YU-rgE" kind="relationship" relationship="rootViewController" id="6aH-Vo-jZW"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Eo7-3M-juL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5RB-U6-aeI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-286" y="402"/>
+            <point key="canvasLocation" x="-508.5" y="298"/>
         </scene>
-        <!--Color-->
-        <scene sceneID="rds-9e-Yzc">
+        <!--Colors-->
+        <scene sceneID="lcK-rv-24S">
             <objects>
-                <tableViewController id="pkc-fy-5rj" customClass="WQFPaletteViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Rw9-lj-cdL">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                <tableViewController id="Dcm-YU-rgE" customClass="WQFPaletteViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Jxd-ou-7VT">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UITableViewCell" textLabel="uXD-hJ-BcS" style="IBUITableViewCellStyleDefault" id="QAW-Ag-db3">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UITableViewCell" id="APM-TR-PlZ">
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QAW-Ag-db3" id="EoD-D5-q0b">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="APM-TR-PlZ" id="wuH-HS-Yyq">
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uXD-hJ-BcS">
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                            <variation key="widthClass=compact">
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            </variation>
-                                        </label>
-                                    </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="7Vy-jx-jOz" kind="show" identifier="ExistingColor" id="pon-mo-OpL"/>
+                                    <segue destination="uwe-49-rWC" kind="show" identifier="ExistingColor" id="2qo-Fz-BE9"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
-                        <sections/>
                         <connections>
-                            <outlet property="dataSource" destination="pkc-fy-5rj" id="fKF-be-BLq"/>
-                            <outlet property="delegate" destination="pkc-fy-5rj" id="sch-yL-26g"/>
+                            <outlet property="dataSource" destination="Dcm-YU-rgE" id="Sjx-9Q-d90"/>
+                            <outlet property="delegate" destination="Dcm-YU-rgE" id="WiZ-ci-42s"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Color" id="9RT-VJ-QbA">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="55G-Tu-y3J">
+                    <navigationItem key="navigationItem" title="Colors" id="Q28-Px-Vuc">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="A4K-ps-10g">
                             <connections>
-                                <segue destination="dR4-Lz-64b" kind="presentation" identifier="NewColor" id="sKo-YL-iXq"/>
+                                <segue destination="dHG-Tw-gP9" kind="presentation" identifier="NewColor" id="fdm-Mf-eIn"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TDI-rd-4hf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EGg-eF-jD3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="463.5" y="402"/>
-        </scene>
-        <!--Color View Controller-->
-        <scene sceneID="fnv-g8-KwJ">
-            <objects>
-                <viewController id="7Vy-jx-jOz" customClass="WQFColorViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="OaG-w5-AWn"/>
-                        <viewControllerLayoutGuide type="bottom" id="lkQ-40-CQu"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="pwQ-99-P6H">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="grG-Ex-eme">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="132" width="368" height="30"/>
-                                </variation>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WtG-FK-4h5">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="203" width="32" height="21"/>
-                                </variation>
-                            </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="JRs-6O-hQI">
-                                <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="14" y="239" width="372" height="31"/>
-                                </variation>
-                                <connections>
-                                    <action selector="changeColor:" destination="7Vy-jx-jOz" eventType="valueChanged" id="91T-wq-5c4"/>
-                                </connections>
-                            </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15f-GX-2We">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="323" width="47" height="21"/>
-                                </variation>
-                            </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="LAW-ji-vJc">
-                                <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="14" y="363" width="372" height="31"/>
-                                </variation>
-                                <connections>
-                                    <action selector="changeColor:" destination="7Vy-jx-jOz" eventType="valueChanged" id="Ute-dN-cKM"/>
-                                </connections>
-                            </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnQ-N8-jRF">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="449" width="35" height="21"/>
-                                </variation>
-                            </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="J7I-6H-Qet">
-                                <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="14" y="486" width="372" height="31"/>
-                                </variation>
-                                <connections>
-                                    <action selector="changeColor:" destination="7Vy-jx-jOz" eventType="valueChanged" id="UwT-h4-Cif"/>
-                                </connections>
-                            </slider>
-                        </subviews>
-                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="grG-Ex-eme"/>
-                                <exclude reference="WtG-FK-4h5"/>
-                                <exclude reference="JRs-6O-hQI"/>
-                                <exclude reference="15f-GX-2We"/>
-                                <exclude reference="LAW-ji-vJc"/>
-                                <exclude reference="hnQ-N8-jRF"/>
-                                <exclude reference="J7I-6H-Qet"/>
-                            </mask>
-                        </variation>
-                        <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="grG-Ex-eme"/>
-                                <include reference="WtG-FK-4h5"/>
-                                <include reference="JRs-6O-hQI"/>
-                                <include reference="15f-GX-2We"/>
-                                <include reference="LAW-ji-vJc"/>
-                                <include reference="hnQ-N8-jRF"/>
-                                <include reference="J7I-6H-Qet"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <navigationItem key="navigationItem" id="hd0-Vi-vrB">
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="gTa-WJ-aAS">
-                            <connections>
-                                <action selector="dismiss:" destination="7Vy-jx-jOz" id="IVR-Ie-Zkf"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="blueSlider" destination="J7I-6H-Qet" id="Inf-AY-DLC"/>
-                        <outlet property="greenSlider" destination="LAW-ji-vJc" id="9ye-Le-kWi"/>
-                        <outlet property="redSlider" destination="JRs-6O-hQI" id="DBJ-MC-k7s"/>
-                        <outlet property="textField" destination="grG-Ex-eme" id="gvQ-lu-WXc"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="H0U-Jq-F2E" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2506.5" y="402"/>
+            <point key="canvasLocation" x="249" y="284"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="ynv-nj-Bmd">
+        <scene sceneID="nXE-8t-deG">
             <objects>
-                <navigationController id="dR4-Lz-64b" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QYp-Ne-Kfn">
+                <navigationController id="dHG-Tw-gP9" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5Zl-sa-SXm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="7Vy-jx-jOz" kind="relationship" relationship="rootViewController" id="N9R-dB-mZj"/>
+                        <segue destination="uwe-49-rWC" kind="relationship" relationship="rootViewController" id="G7r-h5-XEm"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Yqg-uW-yMb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PfX-d5-wwu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1492.5" y="890"/>
+            <point key="canvasLocation" x="784.5" y="1060"/>
+        </scene>
+        <!--Color View Controller-->
+        <scene sceneID="7yC-GJ-lhV">
+            <objects>
+                <viewController id="uwe-49-rWC" customClass="WQFColorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zXH-kt-x1f"/>
+                        <viewControllerLayoutGuide type="bottom" id="aVm-gH-S3Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="408-QR-esI">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7g7-yF-AgK">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="160" width="32" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hby-4d-C3E">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="304" width="47" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAB-Yy-sGb">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="458" width="35" height="21"/>
+                                </variation>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Sme-kE-8w7">
+                                <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="199" width="372" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="changeColor:" destination="uwe-49-rWC" eventType="valueChanged" id="w4Z-K6-YxY"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="nBj-3m-isT">
+                                <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="346" width="372" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="changeColor:" destination="uwe-49-rWC" eventType="valueChanged" id="QWP-1x-rdG"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="nnN-Ex-Eox">
+                                <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="14" y="505" width="372" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="changeColor:" destination="uwe-49-rWC" eventType="valueChanged" id="48A-wZ-oOw"/>
+                                </connections>
+                            </slider>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Color Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fDe-By-Bjx">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="99" width="368" height="30"/>
+                                </variation>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="7g7-yF-AgK"/>
+                                <exclude reference="hby-4d-C3E"/>
+                                <exclude reference="YAB-Yy-sGb"/>
+                                <exclude reference="Sme-kE-8w7"/>
+                                <exclude reference="nBj-3m-isT"/>
+                                <exclude reference="nnN-Ex-Eox"/>
+                                <exclude reference="fDe-By-Bjx"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="7g7-yF-AgK"/>
+                                <include reference="hby-4d-C3E"/>
+                                <include reference="YAB-Yy-sGb"/>
+                                <include reference="Sme-kE-8w7"/>
+                                <include reference="nBj-3m-isT"/>
+                                <include reference="nnN-Ex-Eox"/>
+                                <include reference="fDe-By-Bjx"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="ifx-Hm-Li4">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="C5z-cv-kbf">
+                            <connections>
+                                <action selector="dismiss:" destination="uwe-49-rWC" id="W4x-sZ-wl7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="blueSlider" destination="nnN-Ex-Eox" id="qvN-JA-x4g"/>
+                        <outlet property="greenSlider" destination="nBj-3m-isT" id="aO3-VV-DEG"/>
+                        <outlet property="redSlider" destination="Sme-kE-8w7" id="e6o-Sv-yYg"/>
+                        <outlet property="textField" destination="fDe-By-Bjx" id="7GL-xw-TcZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RMe-NU-tsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1750.5" y="284"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="N9R-dB-mZj"/>
+        <segue reference="2qo-Fz-BE9"/>
     </inferredMetricsTieBreakers>
 </document>

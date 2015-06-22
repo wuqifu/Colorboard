@@ -45,7 +45,7 @@
 		A82369231B2D7E810039F490 /* ColorboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82369281B2D7E810039F490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A82369291B2D7E810039F490 /* ColorboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorboardTests.m; sourceTree = "<group>"; };
-		A82369331B2D7EF70039F490 /* Colorboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Colorboard.storyboard; sourceTree = "<group>"; };
+		A82369331B2D7EF70039F490 /* Colorboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Colorboard.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,6 @@
 		A82369011B2D7E810039F490 = {
 			isa = PBXGroup;
 			children = (
-				A82369331B2D7EF70039F490 /* Colorboard.storyboard */,
 				A823690C1B2D7E810039F490 /* Colorboard */,
 				A82369261B2D7E810039F490 /* ColorboardTests */,
 				A823690B1B2D7E810039F490 /* Products */,
@@ -96,6 +95,7 @@
 				A817081C1B2EEDE00054E5F0 /* WQFPaletteViewController.m */,
 				A82369111B2D7E810039F490 /* AppDelegate.h */,
 				A82369121B2D7E810039F490 /* AppDelegate.m */,
+				A82369331B2D7EF70039F490 /* Colorboard.storyboard */,
 				A823691A1B2D7E810039F490 /* Images.xcassets */,
 				A823691C1B2D7E810039F490 /* LaunchScreen.xib */,
 				A823690D1B2D7E810039F490 /* Supporting Files */,
